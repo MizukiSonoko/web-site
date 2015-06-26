@@ -1,0 +1,29 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/core-ajax/core-ajax.html">
+
+<polymer-element name="content-service" attributes="cards">
+  <template>
+    <style>
+    :host {
+      display: none;
+    }
+    </style>
+    <core-ajax id="ajax"
+      auto
+      url="../data/contents.json"
+      on-core-response="{{cardsLoaded}}"
+      handleAs="json">
+    </core-ajax>
+  </template>
+  <script>
+  Polymer('content-service', {
+    created: function() {
+      this.cards = [];
+    },
+    cardsLoaded: function() {
+      this.cards = this.$.ajax.response.slice(0);
+    }
+  });
+  </script>
+</polymer-element>
+

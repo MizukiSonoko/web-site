@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Github",
+    "text" : "This is my github. Plz PR!",
+    "link" :
+    {
+        "title":"Github",
+        "url":"https://github.com/MizukiSonoko"
+    },
+    "icon" : "../img/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png",
+    "category": "profile"
+  },
+  {
+    "id": 2,
+    "title": "Twitter",
+    "text" : "This is my twitter account",
+    "link" :
+    {
+        "title":"Twitter",
+        "url":"https://twitter.com/mizuki_sonoko"
+    },
+    "icon" : "../img/brand_guideline_logos/TwitterLogo_55acee.png",
+    "category": "profile"
+  }
+]
+
+
+
+
+

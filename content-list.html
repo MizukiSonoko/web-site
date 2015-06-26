@@ -1,0 +1,36 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
+<link rel="import" href="content-service/content-service.html">
+<link rel="import" href="content-card.html">
+
+<polymer-element name="content-list" attributes="show">
+<template>
+    <style>
+    :host {
+      display: block;
+      width: 100%;
+    }
+    content-card {
+      margin-bottom: 30px;
+    }
+    </style>
+
+    <content-service id="service" cards="{{cards}}"></content-service>
+    
+    <div layout vertical center>
+        <template repeat="{{card in cards}}">
+            <content-card 
+                hidden?="{{show != card.category}}">
+                <img src="{{card.icon}}" width="70" height="70">
+                <h2>{{card.title}}</h2>
+                <p>{{card.text}}</p>
+                <p><a href="{{card.link.url}}">{{card.link.title}}</a></p>
+            </content-card>
+        </template>
+    </div>
+</template>
+<script>
+    Polymer();
+</script>
+</polymer-element>
+
