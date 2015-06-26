@@ -17,9 +17,10 @@
 
     <content-service id="service" cards="{{cards}}"></content-service>
     
-    <div layout vertical center>
+    <div layout vertical wrap>
         <template repeat="{{card in cards}}">
             <content-card 
+                background="{{card.background}}"
                 hidden?="{{show != card.category}}">
                 <img src="{{card.icon}}" width="70" height="70">
                 <h2>{{card.title}}</h2>

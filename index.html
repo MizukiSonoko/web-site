@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>unquote</title>
+  <title>/home/mizuki</title>
 
   <meta name="viewport" 
   content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
@@ -26,7 +26,7 @@
   html,body {
     height: 100%;
     margin: 0;
-    background-color: #E5E5E5;
+    background-color: #37474F;
     font-family: 'RobotoDraft', sans-serif;
   }
   core-header-panel {
@@ -35,7 +35,7 @@
     -webkit-overflow-scrolling: touch; 
   }
   core-toolbar {
-    background: #03a9f4;
+    background: #F4511E;
     color: white;
   }
   #tabs {
@@ -66,15 +66,17 @@
 <body unresolved>
   <core-header-panel>
 
-    <core-toolbar>
-        <div flex>@Mizuki_sonoko</div>
+    <core-toolbar class="tall">
+     
+            <div flex>/home/mizuki</div>
 
-        <paper-tabs id="tabs" selected="all" flex self-end>
-            <paper-tab name="profile">Profile</paper-tab>
-            <paper-tab name="activity">Activity</paper-tab>
-            <paper-tab name="products">Products</paper-tab>
-            <paper-tab name="link">Link</paper-tab>
-        </paper-tabs>
+            <paper-tabs id="tabs" selected="profile" class="bottom" flex self-end style="max-width: 600px;">
+                <paper-tab name="profile">Profile</paper-tab>
+                <paper-tab name="activity">Activity</paper-tab>
+                <paper-tab name="award">Award</paper-tab>
+                <paper-tab name="link">Link</paper-tab>
+            </paper-tabs>
+        </div>
     </core-toolbar>
 
     <div class="container" layout vertical center>

@@ -8,7 +8,7 @@
     :host {
       display: block;
       position: relative;
-      background-color: white;
+      background-color: {{background}};
       margin: 50px;
       width: 100%;
       font-size: 1.2rem;
@@ -51,7 +51,10 @@
 </template>
 <script>
 Polymer({
-    category: "",
+    publish: {
+        category: "",
+        background: ""
+    }
 });
 </script>
 </polymer-element>

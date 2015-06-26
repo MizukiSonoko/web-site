@@ -2,7 +2,8 @@
   {
     "id": 1,
     "title": "Github",
-    "text" : "This is my github. Plz PR!",
+    "background": "#EC407A",
+    "text" : "This is my github. Plz PR!.",
     "link" :
     {
         "title":"Github",
@@ -14,7 +15,8 @@
   {
     "id": 2,
     "title": "Twitter",
-    "text" : "This is my twitter account",
+    "background": "#EC407A",
+    "text" : "This is my twitter account.",
     "link" :
     {
         "title":"Twitter",
@@ -22,7 +24,20 @@
     },
     "icon" : "../img/brand_guideline_logos/TwitterLogo_55acee.png",
     "category": "profile"
-  }
+  },
+  {
+    "id": 3,
+    "title": "I won the SPAJAM 2014",
+    "background": "#AB47BC",
+    "text" : "I developed 'Pieces of Japan'.",
+    "link" :
+    {
+        "title":"SPAJAM 2014",
+        "url":"http://spajam.jp/2014/"
+    },
+    "icon" : "",
+    "category": "award"
+  },
 ]
 
 
