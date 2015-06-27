@@ -230,7 +230,44 @@
     ],
     "icon" : "../img/material/ic_star_black.png",
     "category": "award"
+  },
+  {
+    "id": 15,
+    "title": "Web Framework",
+    "background": "#E6EE9C",
+    "text" : "Pyramid, Flask, Ruby on Rails",
+    "links" : [],
+    "icon" : "../img/material/build_black.png",
+    "category": "profile"
+  },
+  {
+    "id": 16,
+    "title": "Login system using pyramid",
+    "background": "#689F38",
+    "text" : "Pyramidを使った簡単な認証システム。SQLite使用",
+    "links" : 
+    [
+        {
+            "title":"Github pyramid login sql",
+            "url"  :"https://github.com/MizukiSonoko/pyramid-login-sql" 
+        }
+    ],
+    "icon" : "../img/material/build_white.png",
+    "category": "product"
+  },
+  {
+    "id": 17,
+    "title": "LICENCE",
+    "background": "#546E7A",
+    "text" : "Copyright (c) 2015, Sonoko Mizuki",
+    "links" : 
+    [
+        {
+            "title":"Polymer LICENCE",
+            "url"  :"https://polymer.github.io/LICENSE.txt" 
+        }
+    ],
+    "icon" : "../img/material/build_white.png",
+    "category": "other"
   }
 ]
-
-

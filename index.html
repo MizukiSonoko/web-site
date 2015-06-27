@@ -55,10 +55,10 @@
   }
   @media (min-width: 481px) {
     #tabs {
-      width: 400px;
+      width: 200px;
     }
     .container {
-      width: 800px;
+      width: 680px;
     }
   }
   </style>
@@ -88,16 +88,9 @@
   <script>
   var tabs = document.querySelector('paper-tabs');
   var list = document.querySelector('content-list');
-  var background_color = "#66BB6A"
  
   tabs.addEventListener('core-select', function() {
     list.show = tabs.selected;
-    if( tabs.selected == "activity"){
-        list.show();
-        background_color = "#FF7043"
-    } else {
-        background_color = "#66BB6A"
-    }
   });
   </script>
 </body>
