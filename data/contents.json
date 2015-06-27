@@ -2,45 +2,235 @@
   {
     "id": 1,
     "title": "Github",
-    "background": "#EC407A",
+    "background": "#A5D6A7",
     "text" : "This is my github. Plz PR!.",
-    "link" :
-    {
+    "links" :
+    [
+      {
         "title":"Github",
         "url":"https://github.com/MizukiSonoko"
-    },
+      }
+    ],
     "icon" : "../img/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png",
     "category": "profile"
   },
   {
     "id": 2,
     "title": "Twitter",
-    "background": "#EC407A",
+    "background": "#E6EE9C",
     "text" : "This is my twitter account.",
-    "link" :
-    {
+    "links" :
+    [
+      {
         "title":"Twitter",
         "url":"https://twitter.com/mizuki_sonoko"
-    },
+      }
+    ],
     "icon" : "../img/brand_guideline_logos/TwitterLogo_55acee.png",
     "category": "profile"
   },
   {
     "id": 3,
-    "title": "I won the SPAJAM 2014",
-    "background": "#AB47BC",
-    "text" : "I developed 'Pieces of Japan'.",
-    "link" :
-    {
-        "title":"SPAJAM 2014",
+    "title": "SPAJAM 2014",
+    "background": "#CE93D8",
+    "text" : "I won the SPAJAM 2014.",
+    "links" :
+    [
+      {
+        "title":"SPAJAM 2014 official page",
         "url":"http://spajam.jp/2014/"
-    },
-    "icon" : "",
+      },
+      {
+        "title":"News 1",
+        "url":"http://k-tai.impress.co.jp/docs/news/20140715_658037.html"
+      },
+      {
+        "title":"News 2",
+        "url":"http://www.u-aizu.ac.jp/events/spajam.html"
+      }
+    ],
+    "icon" : "../img/material/ic_star_black.png",
     "category": "award"
   },
+  {
+    "id": 4,
+    "title": "Facebook",
+    "background": "#F8BBD0",
+    "text" : "This is my Facebook account.",
+    "links" :
+    [
+      {
+        "title":"Facebook",
+        "url":"https://www.facebook.com/taisei.igarashi.3"
+      }
+    ],
+    "icon" : "../img/other/FB.png",
+    "category": "profile"
+  },
+  {
+    "id": 5,
+    "title": "Belong",
+    "background": "#B39DDB",
+    "text" : "University of Aizu, 2013 ~",
+    "links" :
+    [
+      {
+        "title":"University of Aizu",
+        "url":"http://www.u-aizu.ac.jp/"
+      }
+    ],
+    "icon" : "../img/material/group.png",
+    "category": "profile"
+  },
+  {
+    "id": 6,
+    "title": "JPHACK",
+    "background": "#64B5F6",
+    "text" : "I won the JPHACK in University of Tokyo",
+    "links" :
+    [
+      {
+        "title":"JPHack official page",
+        "url":"https://jphacks.com/"
+      },
+      {
+        "title":"NEWS 1",
+        "url":"http://www.huffingtonpost.jp/asahi-shimbun-media-lab/hackathon_b_6381012.html"
+      },
+      {
+        "title":"NEWS 2",
+        "url":"http://aizu.io/2015/05/140/"
+      },
+      {
+        "title":"NEWS 3",
+        "url":"http://www.u-aizu.ac.jp/events/jphacks2014.html"
+      }
+    ],
+    "icon" : "../img/material/ic_star_black.png",
+    "category": "award"
+  },
+  {
+    "id": 7,
+    "title": "Like Language",
+    "background": "#FFF176",
+    "text" : "C, C++, Python, Java(Android), kotlin",
+    "links" : [],
+    "icon" : "../img/material/code.png",
+    "category": "profile"
+  },
+  {
+    "id": 8,
+    "title": "Blog",
+    "background": "#FFFFFF",
+    "text" : "Hatena blog",
+    "links" :
+    [
+      {
+        "title":"Hatena",
+        "url":"http://mizukisonoko.hatenablog.com"
+      }
+    ],
+    "icon" : "../img/Hatena-Blog-Logo/hatenablog-logo.png",
+    "category": "profile"
+  },
+  {
+    "id": 9,
+    "title": "減災Hackathon2015",
+    "background": "#E6EE9C",
+    "text" : "I won the 減災Hackathon2015",
+    "links" :
+    [
+      {
+        "title":"減災Hackathon2015 official page",
+        "url":"http://rainbow.nttdocomo.co.jp/hackathon/"
+      },
+      {
+        "title":"NEWS 1",
+        "url":"http://itpro.nikkeibp.co.jp/atcl/column/14/494324/021300029/"
+      },
+      {
+        "title":"NEWS 2",
+        "url":"http://www.u-aizu.ac.jp/events/gensaihackathon2015.html"
+      }
+    ],
+    "icon" : "../img/material/ic_star_black.png",
+    "category": "award"
+  },
+  {
+    "id": 10,
+    "title": "きんいろモザイク",
+    "background": "#FFFF8D",
+    "text" : "きんいろモザイクの登場人物は皆可愛く、日常に癒しを与えてくれる。九条カレンちゃんが個人的に一番好き",
+    "links" :
+    [
+      {
+        "title":"Official page",
+        "url":"http://www.kinmosa.com/"
+      }
+    ],
+    "icon" : "../img/material/ic_star_black.png",
+    "category": "activity"
+  },
+  {
+    "id": 11,
+    "title": "ご注文はうさぎですか？",
+    "background": "#8D6E63",
+    "text" : "香風智乃さんの淹れたコーヒーが飲みたいです。",
+    "links" :
+    [
+      {
+        "title":"Official page",
+        "url":"http://www.gochiusa.com/"
+      }
+    ],
+    "icon" : "../img/material/cafe_white.png",
+    "category": "activity"
+  },
+  {
+    "id": 12,
+    "title": "ラブライブ！",
+    "background": "#F48FB1",
+    "text" : "一番好きな曲はMermaid Festa Vol.1,二番目に好きな曲はSomeday of my life,三番目はLove marginal. アイドルで一番好きなのは矢澤にこちゃん",
+    "links" :
+    [
+      {
+        "title":"Official page",
+        "url":"http://www.lovelive-anime.jp/"
+      }
+    ],
+    "icon" : "../img/material/ic_star_black.png",
+    "category": "activity"
+  },
+  {
+    "id": 13,
+    "title": "平成26年度会津産IT技術 奨励賞",
+    "background": "#9FA8DA",
+    "text" : "I developed Pieces of Japan",
+    "links" :
+    [
+      {
+        "title":"Official page",
+        "url":"http://www.city.aizuwakamatsu.fukushima.jp/docs/2013011800079/"
+      }
+    ],
+    "icon" : "../img/material/ic_star_black.png",
+    "category": "award"
+  },
+  {
+    "id": 14,
+    "title": "Mashup Awards オープンデータ部門試作部門賞",
+    "background": "#90CAF9",
+    "text" : "I developed Pieces of Japan",
+    "links" :
+    [
+      {
+        "title":"Official page",
+        "url":"http://vled.or.jp/2014contest/award/"
+      }
+    ],
+    "icon" : "../img/material/ic_star_black.png",
+    "category": "award"
+  }
 ]
-
-
-
 
 

@@ -17,21 +17,74 @@
 
     <content-service id="service" cards="{{cards}}"></content-service>
     
-    <div layout vertical wrap>
+    <div justified layout>
         <template repeat="{{card in cards}}">
             <content-card 
+                role="article"
                 background="{{card.background}}"
-                hidden?="{{show != card.category}}">
+                hidden?="{{show != card.category && show!='all'}}" flex>
                 <img src="{{card.icon}}" width="70" height="70">
                 <h2>{{card.title}}</h2>
                 <p>{{card.text}}</p>
-                <p><a href="{{card.link.url}}">{{card.link.title}}</a></p>
+                <template repeat="{{link in card.links}}">
+                    <p><a href="{{link.url}}">{{link.title}}</a></p>
+                </template>             
             </content-card>
         </template>
     </div>
 </template>
 <script>
-    Polymer();
+ Polymer({
+    behaviors: [
+      Polymer.NeonAnimationRunnerBehavior
+    ],
+
+    properties: {
+
+      opened: {
+        type: Boolean
+      },
+
+      animationConfig: {
+        type: Object,
+        value: function() {
+          return {
+            'entry': [{
+              name: 'scale-up-animation',
+              node: this
+            }],
+            'exit': [{
+              name: 'fade-out-animation',
+              node: this
+            }]
+          }
+        }
+      }
+
+    },
+
+    listeners: {
+      'neon-animation-finish': '_onAnimationFinish'
+    },
+
+    _onAnimationFinish: function() {
+      if (!this.opened) {
+        this.style.display = '';
+      }
+    },
+
+    show: function() {
+      this.opened = true;
+      this.style.display = 'inline-block';
+      this.playAnimation('entry');
+    },
+
+    hide: function() {
+      this.opened = false;
+      this.playAnimation('exit');
+    }
+
+  });
 </script>
 </polymer-element>
 
